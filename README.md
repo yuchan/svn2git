@@ -7,12 +7,12 @@ Prerequisite
 ## On OS X Marvericks(Mountain Lion), `git svn` is broken.
 
     You should prepare perl module, referencing the following page.
-	    [link](http://blog.victorquinn.com/fix-git-svn-in-mountain-lion)
+	[link](http://blog.victorquinn.com/fix-git-svn-in-mountain-lion)
 
 Mac OS X 10.9:
 
     $ sudo ln -s  /Applications/Xcode.app/Contents/Developer/Library/Perl/5.16/darwin-thread-multi-2level/SVN /System/Library/Perl/Extras/5.16/SVN
-	    $ sudo ln -s /Applications/Xcode.app/Contents/Developer/Library/Perl/5.16/darwin-thread-multi-2level/auto/SVN/ /System/Library/Perl/Extras/5.16/auto/SVN
+	$ sudo ln -s /Applications/Xcode.app/Contents/Developer/Library/Perl/5.16/darwin-thread-multi-2level/auto/SVN/ /System/Library/Perl/Extras/5.16/auto/SVN
 
 Mac OS X 10.8:
 
