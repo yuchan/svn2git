@@ -2,7 +2,7 @@
 
 myproject="" #project name
 mysvn="" #abosolute path to svn command
-mysvnrepo="" #absolute path to the root of the current svn project
+mysvnrepo="" #absolute path to the root of svn server
 mytrunk="" #relative path to the trunk
 
 ${mysvn} checkout ${mysvnrepo}${mytrunk} tmptrunk
